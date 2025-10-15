@@ -33,6 +33,7 @@
 
 - ให้ AI Generate โปรแกรมในส่วนของการอ่านไฟล์และ Logic ภายใน Controller (บางส่วน)
 - ให้ AI Generate โปรแกรมในส่วนของการ Error (บางส่วน)
+- ให้ AI Generate โปรแกรม unit test ทั้งหมด
 - เรียนรู้การอ่านไฟล์ใน NodeJS
 - เรียนรู้การทำ Mock Response
 
