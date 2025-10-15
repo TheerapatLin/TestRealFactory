@@ -28,6 +28,15 @@
 - `GET /orders` – รับรายการคำสั่งซื้อทั้งหมด
 - `GET /orders/summary` – สรุปยอดรวม จำนวนสถานะหลัก และร้านที่ยอดขายสูงสุด
 - `POST /ai-helper` – ส่ง `prompt` เพื่อรับข้อความสรุปแบบ human-friendly (mock response)
+- `POST /orders` - สร้าง order ใหม่ด้วย body ดังต่อไปนี้
+```
+{
+    "merchant": "Marvel",
+    "items": 1,
+    "amount": 150,
+    "status": "PAID"
+}
+```
 
 ### จุดที่ใช้ AI และสิ่งที่ได้เรียนรู้
 
@@ -36,6 +45,7 @@
 - ให้ AI Generate โปรแกรม unit test ทั้งหมด
 - เรียนรู้การอ่านไฟล์ใน NodeJS
 - เรียนรู้การทำ Mock Response
+- เรียนรู้การทำ Unit test ด้วย jest mock
 
 ### Creativity & Optimization 
 - จากไฟล์ order.json ควรเพิ่มรายละเอียดแสดงราคาต่อชิ้นของสินค้าได้ด้วย
